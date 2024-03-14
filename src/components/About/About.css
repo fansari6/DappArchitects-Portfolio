@@ -1,0 +1,171 @@
+@import "../../vars.css";
+
+.container {
+  padding: 10px 10%;
+  min-height: 100vh;
+}
+
+.about {
+  padding: 50px 0;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutCol1 {
+  flex-basis: 35%;
+}
+
+.aboutCol1 img {
+  margin-top: 80px;
+  width: 425px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.aboutCol2 {
+  flex-basis: 60%;
+}
+
+.subTitle {
+  font: var(--font-roboto);
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.tabTitles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.tabLinks {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tabLinks::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tabLinks.activeLink::after {
+  width: 100%;
+}
+
+.tabContents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.tabContents ul li span {
+  color: orange;
+  font-size: 16px;
+}
+
+.tabContents {
+  display: none;
+}
+
+.tabContents.activeTab {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+}
+
+.nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.nav ul li a:hover::after {
+  width: 100%;
+}
+
+.navBorder {
+  align-items: center;
+  width: fit-content;
+  text-align: center;
+  padding: 5px 0;
+  background: #262626;
+  font-weight: 300;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.outContainer {
+  padding-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------ For Small Screens ------------------ */
+
+@media only screen and (max-width: 810px) {
+  .subTitle {
+    font-size: 40px;
+  }
+
+  .aboutCol1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .aboutCol2 {
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+
+  .tabLinks {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  .tabContents ul li span {
+    color: orange;
+    font-size: 14px;
+  }
+}

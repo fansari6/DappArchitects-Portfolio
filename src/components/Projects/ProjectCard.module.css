@@ -1,0 +1,83 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #262626;
+  padding: 18px 24px;
+  max-width: 345px;
+  transition: background 0.5s, transform 0.5s;
+  max-height: 660px;
+  min-height: 660px;
+}
+
+/* --------------- Brought From Experience --------------- */
+
+.container:hover {
+  background: orange;
+  transform: translateY(-10px);
+  max-height: fit-content;
+}
+
+/* --------------- Brought From Experience --------------- */
+
+.image {
+  margin-bottom: 25px;
+}
+
+.imageContainer rounded-image {
+  border-radius: 20px !important;
+  object-fit: cover !important;
+  width: 310px !important;
+  height: 210px !important;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: gray;
+  padding: 2px 21px;
+  justify-content: space-around;
+}
+
+.links {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: var(--color-primary);
+  padding: 3px 22px;
+}

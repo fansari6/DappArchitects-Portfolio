@@ -1,0 +1,209 @@
+@import "../../vars.css";
+
+.container {
+  padding: 10px 10%;
+  min-height: 100vh;
+}
+
+.contact {
+  padding: 50px 0;
+}
+.contactLeft {
+  flex-basis: 35%;
+}
+.contactRight {
+  flex-basis: 60%;
+}
+
+.subTitle {
+  font: var(--font-roboto);
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.contactLeftPA {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.fAIcon {
+  padding-right: 10px;
+  font-size: 25px;
+  color: orange;
+}
+
+.socialMediaIcons {
+  margin-top: 30px;
+}
+
+.socialMediaIcons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.socialMediaIcons a:hover {
+  color: #e69138;
+  transform: translateY(-5px);
+}
+
+.btnSubmit {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #e69138;
+  border-radius: 10px;
+}
+
+.btnDownload {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  background: #e69138;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.btnDownload a {
+  text-decoration: none;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactright form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+}
+
+.nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.nav ul li a:hover::after {
+  width: 100%;
+}
+
+.navBorder {
+  align-items: right;
+  width: fit-content;
+  text-align: center;
+  padding: 5px 0;
+  background: #262626;
+  font-weight: 300;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.outerContainer {
+  padding-top: 20px;
+}
+
+.copyright {
+  width: 80%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 800px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 15px;
+}
+
+.copyright i {
+  color: orange;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.msg {
+  color: #61b752;
+  margin-top: 10px;
+  display: block;
+}
+/* ------------------ For Small Screens ------------------ */
+
+/* .faIcons {
+  display: none;
+} */
+
+@media only screen and (max-width: 810px) {
+  .subTitle {
+    font-size: 40px;
+  }
+
+  .contactLeft {
+    flex-basis: 100%;
+  }
+
+  .contactRight {
+    flex-basis: 100%;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}

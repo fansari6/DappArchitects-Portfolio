@@ -1,0 +1,138 @@
+/* Global Styles */
+.container {
+  position: relative;
+  padding-right: 75px; /* Add padding to the right for the top menu */
+}
+
+/* Top Menu Styles */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.menu li {
+  margin: 10px 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.menu a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+/* Side Menu Styles */
+.side-menu {
+  background-color: #e69138;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 50px;
+  z-index: 2;
+  transition: right 0.5s;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu li {
+  margin: 15px 0; /* Adjust vertical margin */
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Menu Icons */
+.menu-icon {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 810px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon.hidden {
+    display: none;
+  }
+
+  .menu.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #e69138;
+    color: white;
+    width: 150px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  .menu.open li {
+    margin-left: 15px auto; /* Auto margin on left and right to center the items */
+    text-align: left; /* Align text to the left */
+  }
+  .menu.open a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .close-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+}

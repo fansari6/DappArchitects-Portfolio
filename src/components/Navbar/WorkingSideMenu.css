@@ -1,0 +1,62 @@
+/* Show the menu icon on screens up to 810px wide */
+.menu-icon {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
+}
+
+/* Hide the menu icon on screens larger than 810px */
+@media only screen and (min-width: 811px) {
+  .menu-icon {
+    display: none !important; /* Use !important to ensure the rule takes precedence */
+  }
+}
+
+/* Your existing styles for smaller screens (max-width: 810px) */
+.containerSide {
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 155px;
+  cursor: pointer;
+}
+
+.side-menu {
+  background-color: #e69138; /* Orange background */
+  color: white; /* White text */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 50px;
+  z-index: 2;
+  transition: right 0.5s;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu li {
+  margin: 15px;
+}
+
+.side-menu a {
+  text-decoration: none; /* No text decoration */
+  color: white; /* White text */
+  font-size: 18px;
+  font-weight: 500;
+}

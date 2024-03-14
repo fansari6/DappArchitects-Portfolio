@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Alchemy",
+    "imageSrc": "skills/Alchemy.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/Bootstrap.png"
+  },
+  {
+    "title": "Ganache",
+    "imageSrc": "skills/Ganache.png"
+  },
+  {
+    "title": "Hardhat",
+    "imageSrc": "skills/Hardhat.png"
+  },
+  {
+    "title": "Infura",
+    "imageSrc": "skills/Infura.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/Javascript.png"
+  },
+  {
+    "title": "JSON",
+    "imageSrc": "skills/JSON.png"
+  },
+  {
+    "title": "Jupyter",
+    "imageSrc": "skills/Jupyter.png"
+  },
+  {
+    "title": "MaterialUI",
+    "imageSrc": "skills/MaterialUI.png"
+  },
+  {
+    "title": "OpenZeppelin",
+    "imageSrc": "skills/OpenZeppelin.png"
+  },
+  {
+    "title": "Pandas",
+    "imageSrc": "skills/Pandas.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/Python.png"
+  },
+  {
+    "title": "Solidity",
+    "imageSrc": "skills/Solidity.png"
+  },
+  {
+    "title": "Truffle",
+    "imageSrc": "skills/Truffle.png"
+  },
+  {
+    "title": "Web3",
+    "imageSrc": "skills/Web3.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+]

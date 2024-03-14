@@ -1,0 +1,45 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  /* display: inline-block;
+  float: left; */
+  width: 100%;
+  background: #262626;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skill {
+  text-align: center; /* Center the content */
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto; /* Center the container */
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+/* ------------------ For Small Screens ------------------ */
+
+@media only screen and (max-width: 810px) {
+  .skills {
+    display: none;
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Decentralized Exchange (DEX)",
+    "imageSrc": "projects/project.png",
+    "description": "I developed a full-stack Token Exchange, a decentralized cryptocurrency application, leveraging Ethereum blockchain technology. This cutting-edge trading platform was designed to support a myriad of trading pairs, enhancing liquidity and accessibility for users.^ On the backend, I utilized Solidity to write robust Smart Contracts, ensuring the security and integrity of transactions. For the frontend, I employed ReactJS and Redux to manage complex application states, providing users with a seamless and intuitive trading experience. The frontend was further enhanced with HTML, CSS, and JavaScript for dynamic and responsive user interfaces.^ To connect the frontend to the blockchain, I utilized Web3.js, a powerful library for interacting with the Ethereum network, enabling real-time updates and transactions. The development process was streamlined using the Hardhat framework, which facilitated the development, testing, and deployment of the Token Exchange.^ For testing, I implemented automated tests using the Mocha testing framework and Chai assertion library, ensuring the reliability and functionality of the Exchange under various scenarios. This rigorous testing approach helped identify and address potential issues before deployment, enhancing the overall quality of the application.^ Overall, the Token Exchange project showcased my technical expertise in blockchain development, smart contract programming, frontend development, and testing methodologies. It stands as a testament to my commitment to delivering high-quality, innovative solutions in the cryptocurrency space.",
+    "skills": [
+      "Solidity",
+      "Remix",
+      "ReactJS",
+      "Redux",
+      "Figma",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web3.js",
+      "Hardhat",
+      "Mocha",
+      "Chai"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Arbitrage Smart Contract",
+    "imageSrc": "projects/project.png",
+    "description": "I developed an Arbitrage Smart Contract is a cutting-edge platform that leverages the power of AAVE for arbitrage trading. Built with a robust tech stack, including Hardhat for Ethereum development, ReactJS, and JavaScript for the core logic, the project offers a seamless and efficient trading experience.^ To ensure reliability and accuracy, the project is extensively tested using Mocha and Chai testing frameworks. Node.js is used for the backend, providing a scalable and secure environment. Remix is employed for smart contract development, enabling seamless integration with the Ethereum blockchain.^ With this powerful combination of technologies, the Arbitrage Smart Project sets a new standard for arbitrage trading, offering users a reliable and efficient platform for maximizing their trading opportunities.",
+    "skills": ["Remix", "Hardhat", "ReactJS", "Node.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Purchase & Sale DApp",
+    "imageSrc": "projects/project.png",
+    "description": "I developed a comprehensive full-stack application deployed on the Ethereum blockchain, enabling users to list items for sale and engage in buying and selling transactions. The platform's functionality closely resembled that of Craigslist, offering a decentralized marketplace where transactions are conducted using cryptocurrency, specifically Ethers.^ Key features included robust unit testing to ensure the reliability and security of the application. All data pertaining to listed items, including ownership details, was stored securely on the public ledger. The application seamlessly facilitated the transfer of ownership for items purchased with cryptocurrency, automating the process to enhance user experience and streamline transactions.^ The implementation of automated tests was carried out using the Mocha testing framework and Chai assertion library, ensuring thorough testing coverage and adherence to best practices in software development.^ This project exemplified my proficiency in blockchain technology, smart contract development, decentralized application architecture, and testing methodologies. It underscored my commitment to delivering innovative solutions that leverage blockchain's transformative capabilities to create decentralized and secure platforms.",
+    "skills": [
+      "Solidity",
+      "Remix",
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ethers.js",
+      "Hardhat",
+      "Mocha",
+      "Chai"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Trading BOT",
+    "imageSrc": "projects/project.png",
+    "description": "",
+    "skills": [
+      "Solidity",
+      "Remix",
+      "ReactJS",
+      "JavaScript",
+      "Web3.js",
+      "Hardhat",
+      "Mocha",
+      "Chai"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Purchase & Trading of NFTs",
+    "imageSrc": "projects/project.png",
+    "description": "",
+    "skills": [
+      "Solidity",
+      "Remix",
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web3.js",
+      "Hardhat",
+      "Mocha",
+      "Chai",
+      "Pinata"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Personal Profile (this)",
+    "imageSrc": "projects/MyProfileScreenshotSmall.png",
+    "description": "I developed this Personal Profile website to showcase of my skills and experiences, built using a variety of technologies. The backend is powered by Hardhat, a popular development environment for Ethereum, while the frontend is developed with ReactJS for dynamic user interfaces. JavaScript, HTML, and CSS are used to handle the core functionality and styling.^ To enhance the user interface, Fontawesome icons are utilized. JSON is used for data storage and management. Additionally, EmailJS is integrated to enable easy and secure email communication. Together, these technologies create a seamless and engaging experience for visitors to explore my profile and learn more about my work and achievements.",
+    "skills": [
+      "Hardhat",
+      "ReactJS",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Fontawesome",
+      "JSON",
+      "EmailJS"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
